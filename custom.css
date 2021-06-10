@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+}
+#nav {
+    background-color: #a8ccc0;
+    width: 100%;
+    display:inline-block;
+}
+.navbar {
+    background-color: #fa8072;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 10px;
+}
+.header h1 {
+    font-size: 60px;
+    color: #fa8072;
+}
+.header h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 23px;
+}
+p {
+    font-size: 20px;
+}
