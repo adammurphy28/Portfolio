@@ -25,6 +25,10 @@ footer {
     width: 100%;
     background-color: #171717;
 }
+.github {
+    background-color: #ffffff;
+    border-radius: 100%;
+}
 .logos {
     text-align: center;
     padding: 10px 0;
@@ -50,10 +54,11 @@ nav {
     background-color: #171717;
     width: 100%;
     height: 60px;
-    position: sticky;
+    position: fixed;
     top: 0;
     padding-top: 1px;
     text-align: center;
+    z-index: 1;
 }
 .nav li {
     display: inline;
@@ -64,6 +69,9 @@ nav {
     margin: 0 15px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+}
+.nav a:hover {
+    color: #3c89d0;
 }
 header {
     color: #ffffff;
@@ -82,6 +90,10 @@ header {
 .name {
     margin: 0 20px 2px;
 }
+.dev {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
 .showcase-info {
     width: 50%;
     margin: 0 auto;
@@ -92,22 +104,57 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 2rem;
 }
-.showcase-img a {
+.showcase-img img {
+    display: flex;
     width: 50%;
     align-self: center;
+    margin: 0 auto;
+}
+.overlay {
+    position: relative;
+}
+.showcase-overlay {
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.showcase-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.showcase-overlay:hover {
+    opacity: 1;
+}
+.showcase-overlay:hover > * {
+    transform: translateY(0);
+}
+.showcase-title {
+    font-size: 2em;
 }
 .contact {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 2rem 1rem 0;
+    margin: 10rem 1rem 0;
 }
 .contact-img {
     display: flex;
     flex-direction: column;
+    align-self: center;
     width: 25%;
 }
 .contact-info {
@@ -119,6 +166,9 @@ header {
     height: 25%;
     font-size: 20px;
 }
+.contact-body {
+    text-align: center;
+}
 .make-my-life-easier {
     align-self: center;
     width: 20%;
@@ -126,75 +176,50 @@ header {
 .about{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-between;
-    margin: 2rem 1rem 0;
+    margin: 10rem 1rem 0;
+    font-size: 20px;
 }
 .about-img {
+    display: flex;
+    align-self: center;
     width: 25%;
 }
 .about-me {
+    align-self: center;
     height: 25%;
     width: 70%;
     line-height: 1.2;
 }
-.wordpress-info {
+.projects-info {
     width: 50%;
     margin: 0 auto;
     text-align: center;
 }
-.wordpress-img {
+.projects-img {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 2rem;
 }
-.wordpress-img img {
+.projects-img img {
     width: 50%;
     align-self: center;
 }
-.netflix-info {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+.wordpress-img .press-array {
+    width: 35%;
 }
-.netflix-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.press-load {
     margin-bottom: 2rem;
 }
-.netflix-img img {
-    width: 50%;
-    align-self: center;
+@media screen and (max-width: 992px) {
+header {
+    height: 45vh;
 }
-.beer-info {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+.about {
+    font-size: 16px;
 }
-.beer-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 2rem;
+.contact {
+    margin-top: 18rem;
 }
-.beer-img img {
-    width: 50%;
-    align-self: center;
-}
-.spa-info {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-}
-.spa-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-.spa-img img {
-    width: 50%;
-    align-self: center;
 }

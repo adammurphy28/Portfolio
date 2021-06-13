@@ -4,10 +4,10 @@
 <head>
 <meta chartset = "UTF-8">
 <title>Portfolio</title>
-<link rel="stylesheet" href="css/custom.css" type="text/css">
+<link rel="stylesheet" href="css/custom.css">
 <nav>
     <ul class="nav">
-        <li><a>HOME</a></li>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="about-me.html">ABOUT</a></li>
         <li><a href="contact.html">CONTACT</a></li>
     </ul>
@@ -15,8 +15,7 @@
 <header>
     <div class="name">
         <h1>Adam<br>Murphy</h1>
-        <p style="font-size: 25px; margin-bottom: 50px;">A Developer.</p>
-        <p style="font-size: 12px;">Scroll down to see some of my work!</p>
+        <p class="dev">A Developer.</p>
     </div>
 </header>
 </head>
@@ -26,17 +25,45 @@
         <h1><u>PROJECTS</u></h1>
     </div>
     <div class="showcase-img">
-        <a href="wordpress.html"><img src="img/Press-Room.jpg" alt="WordPress"></a>
-        <a href="netflix-clone.html"><img src="img/Netflix Clone.jpg" alt="Netflix"></a>
-        <a href="api-beer-app.html"><img src="img/Beer App.jpg" alt="Beer App"></a>
-        <a href="e-comm-spa.html"><img src="img/CapStone Project.jpg" alt="SPA App"></a>
+        <div class="overlay">
+        <img src="img/Press-Room.jpg" alt="WordPress">
+        <a href="wordpress.html">
+            <div class="showcase-overlay">
+                <div class="showcase-title">WordPress</div>
+            </div>
+        </a>
+        </div>
+        <div class="overlay">
+        <img src="img/Netflix Clone.jpg" alt="Netflix">
+        <a href="netflix-clone.html">
+            <div class="showcase-overlay">
+                <div class="showcase-title">Netflix Clone</div>
+            </div>
+        </a>
+        </div>
+        <div class="overlay">
+        <img src="img/Beer App.jpg" alt="Beer App">
+        <a href="api-beer-app.html">
+            <div class="showcase-overlay">
+                <div class="showcase-title">Beer API app</div>
+            </div>
+        </a>
+        </div>
+        <div class="overlay">
+        <img src="img/CapStone Project.jpg" alt="SPA App">
+        <a href="e-comm-spa.html">
+            <div class="showcase-overlay">
+                <div class="showcase-title">E-comm SPA</div>
+            </div>
+        </a>
+        </div>
     </div>
     </div>
 </body>
 <footer>
     <div class="logos">
         <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><img src="img/linkedin.png" alt="linkedin"></a>
-        <a href="https://github.com/adammurphy28"><img src="img/github.png" alt="github" style="background-color: #ffffff; border-radius: 100%;"></a>
+        <a href="https://github.com/adammurphy28"><img src="img/github.png" alt="github" class="github"></a>
     </div>
 </footer>
 </html>
