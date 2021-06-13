@@ -3,30 +3,34 @@
 <head>
 <meta chartset = "UTF-8">
 <title>Portfolio</title>
-<link rel="stylesheet" href="custom.css" type="text/css">
+<link rel="stylesheet" href="css/custom.css" type="text/css">
 <nav>
     <ul class="nav">
-        <li><a>HOME</a></li>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="about-me.html">ABOUT</a></li>
         <li><a href="contact.html">CONTACT</a></li>
     </ul>
 </nav>
 </head>
 <body>
-    <div>
-        <div id="beer">
-            <h1>API Beer <span>App</span></h1>
-            <p>The app showcases a frontend application utilizing the Punk API. The API is accessed using JavaScript's fetch function
-                and returns JSON data on Brewdog brewery's catalogue of beers. The database can be filtered by the end user by amount of
-                Hoppiness or Alcohol volume. Each measurement is indicated by an icon that is highlighted when clicked/focused on.</p>
-            <img src="img/Beer App.jpg" alt="Beer app">
-            <img src="img/Beer App Description.jpg" alt="Beer app desc">
-            <img src="img/Beer App Code.jpg" alt="Beer app code">
-        </div>
+    <div class="beer">
+    <div class="beer-info">
+        <h1>API Beer App</h1>
+        <p>The app showcases a frontend application utilizing the Punk API. The API is accessed using JavaScript's fetch function
+            and returns JSON data on Brewdog brewery's catalogue of beers. The database can be filtered by the end user by amount of
+            Hoppiness or Alcohol volume. Each measurement is indicated by an icon that is highlighted when clicked/focused on.</p>
+    </div>
+    <div class="beer-img">
+        <img src="img/Beer App Code.jpg" alt="Beer app code">
+        <img src="img/Beer App.jpg" alt="Beer app">
+        <img src="img/Beer App Description.jpg" alt="Beer app desc">
+    </div>
     </div>
 </body>
 <footer>
-    <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><img src="img/linkedin.png" alt="linkedin"></a>
-    <a href="https://github.com/adammurphy28"><img src="img/github.png" alt="github"></a>
+    <div class="logos">
+        <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><img src="img/linkedin.png" alt="linkedin"></a>
+        <a href="https://github.com/adammurphy28"><img src="img/github.png" alt="github" style="background-color: #ffffff; border-radius: 100%;"></a>
+    </div>
 </footer>
 </html>

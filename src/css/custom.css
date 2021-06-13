@@ -20,23 +20,22 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     background-color: #171717;
-    text-align: center;
 }
-footer a {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+.logos {
     text-align: center;
+    padding: 10px 0;
 }
-.links > a {
-    padding-bottom: 10px;
-	color: #ffffff;
-    text-align: center;
-    
+.logos > * {
+    margin: 0 2.5px;
+    width: 10%;
 }
-.links .logos{
-    text-align: center;
+.logos a {
+    display: inline-block;
+    width: 2.5vw;
 }
 li {
     list-style: none;
@@ -68,21 +67,134 @@ nav {
 }
 header {
     color: #ffffff;
-    font-size: 70px;
-    font-family: 'Dancing Script', cursive;
-    line-height: 1;
     background-image: url('Mtn-bg.jpeg');
     width: 100vw;
-    height: 100vh; 
+    height: 82vh; 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: table-cell;
     vertical-align: bottom;
 }
-.name h1{
-    margin: 0 20px 20px;
+.name h1 {
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
 }
-.projects {
+.name {
+    margin: 0 20px 2px;
+}
+.showcase-info {
+    width: 50%;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+}
+.showcase-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.showcase-img a {
+    width: 50%;
+    align-self: center;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 2rem 1rem 0;
+}
+.contact-img {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    width: 25%;
+    height: 25%;
+    font-size: 20px;
+}
+.make-my-life-easier {
+    align-self: center;
+    width: 20%;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 2rem 1rem 0;
+}
+.about-img {
+    width: 25%;
+}
+.about-me {
+    height: 25%;
+    width: 70%;
+    line-height: 1.2;
+}
+.wordpress-info {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.wordpress-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.wordpress-img img {
+    width: 50%;
+    align-self: center;
+}
+.netflix-info {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.netflix-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.netflix-img img {
+    width: 50%;
+    align-self: center;
+}
+.beer-info {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.beer-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.beer-img img {
+    width: 50%;
+    align-self: center;
+}
+.spa-info {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.spa-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.spa-img img {
+    width: 50%;
+    align-self: center;
 }
