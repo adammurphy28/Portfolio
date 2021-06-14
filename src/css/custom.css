@@ -149,7 +149,7 @@ header {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 10rem 1rem 0;
+    margin: 10rem 1rem;
 }
 .contact-img {
     display: flex;
@@ -177,7 +177,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10rem 1rem 0;
+    margin: 10rem 1rem;
     font-size: 20px;
 }
 .about-img {
@@ -190,9 +190,6 @@ header {
     height: 25%;
     width: 70%;
     line-height: 1.2;
-}
-.projects {
-    margin-top: 5rem;
 }
 .projects-info {
     width: 50%;
@@ -214,6 +211,11 @@ header {
 }
 .press-load {
     margin-bottom: 2rem;
+}
+@media screen and (min-width: 1080px) {
+    .projects {
+        margin-top: 5rem;
+    }
 }
 @media screen and (max-width: 992px) {
 header {
