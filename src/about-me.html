@@ -1,53 +1,77 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta chartset = "UTF-8">
-<title>Portfolio</title>
-<link rel="stylesheet" href="css/custom.css">
-<nav>
-    <ul class="nav">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about-me.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-</nav>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Index</title>
+<link href="css/site.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
 </head>
+<header>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li class="has-subnav">
+                <a href="#">MY WORK</a>
+                <ul class="subnav">
+                    <li>
+                        <a href="#">ANIMATIONS</a>
+                    </li>
+                    <li>
+                        <a href="#">SHOPIFY</a>
+                    </li>
+                    <li>
+                        <a href="#">WORDPRESS</a>
+                    </li>
+                    <li>
+                        <a href="#">IN PROGRESS</a>
+                    </li>
+                    <li>
+                        <a href="#">CORE WEB VITALS</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="about-me.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 <body>
     <div class="about">
-    <div class="about-img">
-        <img src="img/profile-pic.jpg" alt="">
-    </div>
-    <div class="about-me">
-        <h1>Hello!</h1>
-        <h2>My Name is Adam Murphy and I'm a developer!</h2>
-        <h3>What kind of developer you may ask?</h3>
-        <p>Well I'm still trying to figure that out myself. Currently, I wear lots of different hats and use whichever
-            one is needed for each situation. I do have a strong background in Front-End Development but that doesn't mean
-            I'm not comfortable in other areas. Through college, bootcamps, books, contracts, freelance work, and previous
-            jobs, I've gained a plethora of various experience. I like to think of myself as a jack of all trades right now
-            but unlike most people with that title, I am trying to put that knowledge
-            and expertise to master as much as I can rather than being a "master of none".
-        </p>
-        <p>I started out studying and working on the server side of things considering a career in Network Engineering but soon
-            came to realize that I wanted to do more and push myself further. Because of this realization, I have made the transition
-            into Web and Software Development as I continue to study Cyber Security.
-            I started studying Cyber Security at Rowan-Cabarrus Community College through online classes and further progressed my development
-            skills via online bootcamps, self teaching, and books. Anything I didn't learn in school but deemed necessary for my career, I
-            taught myself. The only bad thing with this is that I want to know <i>everything</i>.
-        </p>
-        <p>When reading this, I'm sure it's become apparent that I'm a bit of self-starter. A highly motivated one. Cursed by aspirations of
-            perfection. But that's okay. That's why I enjoy having a good team behind me.
-            I am a firm believer in teamwork and cooperation to achieve any goals set.
-            I like to work with like minded people who are goal driven and like to continue to learn and help each other along the way.
-        </p>
-        <p>Essentially, "teamwork makes the dream work!"</p>
-    </div>
+        <img src="img/profile-pic.jpg" alt="selfie">
+        <div class="about-me">
+            <h1>Hello!</h1>
+            <h2>My Name is Adam and I'm a developer!</h2>
+            <h3>What kind of developer you may ask?</h3>
+            <p>A versatile one. Currently, I wear lots of different hats and use whichever
+                one is needed for each situation. I do have a strong background in Front-End Development but I dabble in Back-End Development as well to give me the FULL experience.
+                Through college, bootcamps, books, contracts, freelance work, and previous
+                jobs, I've gained a plethora of various experience. I like to think of myself as a jack of all trades.
+            </p>
+            <p>I started out studying and working on the server side of things considering a career in Network Engineering but soon
+                came to realize that I wanted to do more and push myself further. Because of this realization, I made the transition
+                into Web and Software Development as I continued to study Cyber Security.
+                I started studying Cyber Security at a community college through online classes and further progressed my development
+                skills via online bootcamps, self teaching, and books. Anything I didn't learn in school but deemed necessary for my career, I
+                taught myself. I often find my hunger for knowledge to be <i>endless</i>.
+            </p>
+            <p>When reading this, I'm sure it's become apparent that I'm a bit of self-starter. A highly motivated one. Cursed by aspirations of
+                perfection. Although perfection is unrealistic, I like to surround myself with others who can push me further and help me get better.
+                I enjoy working with like minded people who are driven and share the same hunger for growth and knowledge while helping each other along the way.
+            </p>
+            <p>You know what they say, "teamwork makes the dream work!"</p>
+        </div>
     </div>
 </body>
 <footer>
     <div class="logos">
-        <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><img src="img/linkedin.png" alt="linkedin"></a>
-        <a href="https://github.com/adammurphy28"><img src="img/github.png" alt="github" class="github"></a>
+        <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/adammurphy28"><i class="fa-brands fa-github"></i></a>
     </div>
 </footer>
 </html>

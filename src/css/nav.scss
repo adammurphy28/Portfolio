@@ -1,0 +1,121 @@
+@import 'colors.scss';
+
+footer {
+    align-items: center;
+    background: $color_main;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+
+    .logos {
+        display: flex;
+        justify-content: center;
+
+        a {
+            align-items: center;
+            display: flex;
+            text-decoration: none;
+
+            &:hover {
+
+                i {
+                    color: $color_hover;
+                }
+            }
+
+            &:first-child {
+                margin-right: 10px;
+            }
+
+            i {
+                color: $color_white;
+                font-size: 45px;
+            }
+        }
+    }
+}
+
+header {
+    background: $color_main;
+    height: 70px;
+
+    nav {
+        background: $color_main;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+
+        .nav{
+            align-items: center;
+            display: flex;
+            font-size: 16px;
+            height: 70px;
+            justify-content: space-between;
+            list-style: none;
+            margin: 0 auto;
+            max-width: 400px;
+            padding: 0;
+
+            a {
+                color: $color_white;
+                text-decoration: none;
+            }
+
+            li {
+                position: relative;
+
+                &:not(.has-subnav):hover {
+
+                    > a {
+                        color: $color_hover;
+                    }
+                }
+
+                .subnav {
+                    background: $color_main;
+                    display: none;
+                    list-style: none;
+                    margin-left: -30px;
+                    padding: 30px;
+                    position: absolute;
+    
+                    > li {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            li.has-subnav {
+
+                &:after {
+                    border-left: $color_white 2px solid;
+                    border-bottom: $color_white 2px solid;
+                    content: '';
+                    height: 8px;
+                    margin: 2px -17px 0 0;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    transform: rotate(-45deg);
+                    transition: 0.3s transform ease-out;
+                    width: 8px;
+                }
+            
+                &:hover {
+
+                    &:after {
+                        margin-top: 5px;
+                        transform: rotate(135deg);
+                        transition: 0.3s transform ease-out;
+                    }
+                    
+                    .subnav {
+                        animation: rotateMenuDown 400ms ease-in-out forwards;
+                        display: block;
+                        transform-origin: top center;
+                    }
+                }
+            }
+        }
+    }
+}

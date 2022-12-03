@@ -1,0 +1,15 @@
+.about {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    min-height: 100vh;
+
+    .about-me {
+        margin-left: 50px;
+    }
+
+    img {
+        max-width: 500px;
+    }
+}

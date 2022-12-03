@@ -1,69 +1,90 @@
-<!DOCTYPE html>
 <html>
-<!-- This Portfolio is done completely in pure html and css out of personal choice to keep things interesting -->
 <head>
 <meta chartset = "UTF-8">
-<title>Portfolio</title>
-<link rel="stylesheet" href="css/custom.css">
-<nav>
-    <ul class="nav">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about-me.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-</nav>
-<header>
-    <div class="name">
-        <h1>Adam<br>Murphy</h1>
-        <p class="dev">A Developer.</p>
-    </div>
-</header>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Index</title>
+<link href="css/site.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+<link href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" type="text/css" />
 </head>
+<header>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li class="has-subnav">
+                <a href="#">MY WORK</a>
+                <ul class="subnav">
+                    <li>
+                        <a href="#">ANIMATIONS</a>
+                    </li>
+                    <li>
+                        <a href="#">SHOPIFY</a>
+                    </li>
+                    <li>
+                        <a href="#">WORDPRESS</a>
+                    </li>
+                    <li>
+                        <a href="#">IN PROGRESS</a>
+                    </li>
+                    <li>
+                        <a href="#">CORE WEB VITALS</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="about-me.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 <body>
-    <div class="showcase">
-    <div class="showcase-info">
-        <h1><u>PROJECTS</u></h1>
-    </div>
-    <div class="showcase-img">
-        <div class="overlay">
-        <img src="img/Press-Room.jpg" alt="WordPress">
-        <a href="wordpress.html">
-            <div class="showcase-overlay">
-                <div class="showcase-title">WordPress</div>
-            </div>
-        </a>
-        </div>
-        <div class="overlay">
-        <img src="img/Netflix Clone.jpg" alt="Netflix">
-        <a href="netflix-clone.html">
-            <div class="showcase-overlay">
-                <div class="showcase-title">Netflix Clone</div>
-            </div>
-        </a>
-        </div>
-        <div class="overlay">
-        <img src="img/Beer App.jpg" alt="Beer App">
-        <a href="api-beer-app.html">
-            <div class="showcase-overlay">
-                <div class="showcase-title">Beer API app</div>
-            </div>
-        </a>
-        </div>
-        <div class="overlay">
-        <img src="img/CapStone Project.jpg" alt="SPA App">
-        <a href="e-comm-spa.html">
-            <div class="showcase-overlay">
-                <div class="showcase-title">E-comm SPA</div>
-            </div>
-        </a>
+    <div class="banner">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1>Adam<br>Murphy</h1>
+            <p>A Developer.</p>
         </div>
     </div>
+    <div class="main">
+        <div class="container">
+            <h2 class="title">PROJECTS</h2>
+            <div class="showcase">
+                <div class="showcase-item item-1">
+                    <a href="wordpress.html">
+                        <img src="img/Press-Room.jpg" alt="WordPress">
+                    </a>
+                </div>
+                <div class="showcase-item item-2">
+                    <a href="netflix-clone.html">
+                        <img src="img/Netflix Clone.jpg" alt="Netflix">
+                    </a>
+                </div>
+                <div class="showcase-item item-3">
+                    <a href="api-beer-app.html">
+                        <img src="img/Beer App.jpg" alt="Beer App">
+                    </a>
+                </div>
+                <div class="showcase-item item-4">
+                    <a href="e-comm-spa.html">
+                        <img src="img/CapStone Project.jpg" alt="SPA App">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 <footer>
     <div class="logos">
-        <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><img src="img/linkedin.png" alt="linkedin"></a>
-        <a href="https://github.com/adammurphy28"><img src="img/github.png" alt="github" class="github"></a>
+        <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/adammurphy28"><i class="fa-brands fa-github"></i></a>
     </div>
 </footer>
+<script src="inc/jquery-3.6.1.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/main-min.js"></script>
 </html>

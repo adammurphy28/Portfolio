@@ -1,35 +1,59 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta chartset = "UTF-8">
-<title>Portfolio</title>
-<link rel="stylesheet" href="css/custom.css">
-<nav>
-    <ul class="nav">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about-me.html">ABOUT</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-    </ul>
-</nav>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Index</title>
+<link href="css/site.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
 </head>
-<body class="contact-body">
+<header>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li class="has-subnav">
+                <a href="#">MY WORK</a>
+                <ul class="subnav">
+                    <li>
+                        <a href="#">ANIMATIONS</a>
+                    </li>
+                    <li>
+                        <a href="#">SHOPIFY</a>
+                    </li>
+                    <li>
+                        <a href="#">WORDPRESS</a>
+                    </li>
+                    <li>
+                        <a href="#">IN PROGRESS</a>
+                    </li>
+                    <li>
+                        <a href="#">CORE WEB VITALS</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="about-me.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
     <div class="contact">
-    <div class="contact-img">
-    <img src="img/BooneNC.jpg" alt="">
-    </div>
-    <div class="contact-info">
-    <p>You can usually find me out for an adventure somewhere but it may be easier to call or email.</p>
-    <p>Feel free to just drop me a line:</p>
-    <p><b>Email:</b> adamm1298@gmail.com</p>
-    <p><b>Phone:</b> 919-522-5255</p>
-    </div>
-    <div class="make-my-life-easier"></div>
+        <div class="overlay"></div>
+        <div class="contact-form">
+            <p>Feel free to just drop me a line:</p>
+            <p>Email: adamm1298@gmail.com</p>
+        </div>
     </div>
 </body>
 <footer>
     <div class="logos">
-        <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><img src="img/linkedin.png" alt="linkedin"></a>
-        <a href="https://github.com/adammurphy28"><img src="img/github.png" alt="github" class="github"></a>
+        <a href="https://www.linkedin.com/in/adam-murphy-56b01a214/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/adammurphy28"><i class="fa-brands fa-github"></i></a>
     </div>
 </footer>
 </html>

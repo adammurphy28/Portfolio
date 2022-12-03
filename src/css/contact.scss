@@ -1,0 +1,17 @@
+@import 'colors.scss';
+
+.contact {
+    align-items: center;
+    background: url('/img/Contact-bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+
+    .contact-form {
+        color: $color_white;
+        position: relative;
+    }
+}
