@@ -2,7 +2,7 @@
 @import 'fonts.scss';
 
 .banner {
-    background: url(/img/Mtn-bg.jpeg) no-repeat top center;
+    background: url('/img/site/Mtn-bg.jpeg') no-repeat top center;
     background-size: cover;
     color: $color_white;
     display: flex;
@@ -164,18 +164,5 @@
                 content: '\f061';
             }
         }
-    }
-}
-
-// Animations
-@keyframes rotateMenuDown {
-    0% {
-        transform: rotateX(-90deg)
-    }
-    70% {
-        transform: rotateX(20deg) 
-    }
-    100% {
-        transform: rotateX(0deg) 
     }
 }

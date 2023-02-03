@@ -17,14 +17,6 @@
       "oAP" : "\/about-me.html",
       "oF" : 0
     },
-    "\/api-beer-app.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/api-beer-app.html",
-      "oF" : 0
-    },
     "\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -43,6 +35,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/css\/about.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/animations.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/animations.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
@@ -177,14 +184,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/e-comm-spa.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/e-comm-spa.html",
-      "oF" : 0
-    },
     "\/img" : {
       "ft" : 65536,
       "oA" : 1,
@@ -231,14 +230,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/netflix-clone.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/netflix-clone.html",
-      "oF" : 0
     },
     "\/wordpress.html" : {
       "cB" : 0,
