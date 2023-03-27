@@ -64,7 +64,7 @@ header {
             li {
                 position: relative;
 
-                &:not(.has-subnav):hover {
+                &:hover {
 
                     > a {
                         color: $color_hover;
@@ -109,7 +109,7 @@ header {
                 &:hover {
 
                     &:after {
-                        margin-top: 5px;
+                        margin-top: 6px;
                         transform: rotate(135deg);
                         transition: 0.3s transform ease-out;
                     }
@@ -119,6 +119,12 @@ header {
                         display: block;
                         transform-origin: top center;
                     }
+                }
+
+                > p {
+                    color: $color_white;
+                    cursor: default;
+                    margin: 0;
                 }
             }
         }

@@ -1,1 +1,1 @@
-!function($){$(".showcase").slick()}(this.jQuery);
+!function($){$().slick&&$(".showcase-slider").slick(),$().magnificPopup&&$(".has-popup").each((function(){$(this).magnificPopup({type:"ajax"})}))}(this.jQuery);

@@ -9,22 +9,6 @@
   ],
   "creatorBuild" : "34434",
   "files" : {
-    "\/about-me.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/about-me.html",
-      "oF" : 0
-    },
-    "\/contact.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/contact.html",
-      "oF" : 0
-    },
     "\/css\/about.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -115,21 +99,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/css\/index.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/index.css",
-      "oF" : 1,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/css\/nav.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -184,6 +153,118 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/html\/about-me.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/about-me.html",
+      "oF" : 0
+    },
+    "\/html\/contact.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/contact.html",
+      "oF" : 0
+    },
+    "\/html\/cwv\/bloomer-cwv.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/cwv\/bloomer-cwv.html",
+      "oF" : 0
+    },
+    "\/html\/cwv\/bsf-cwv.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/cwv\/bsf-cwv.html",
+      "oF" : 0
+    },
+    "\/html\/cwv\/cwv.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/cwv\/cwv.html",
+      "oF" : 0
+    },
+    "\/html\/cwv\/pioncomm-cwv.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/cwv\/pioncomm-cwv.html",
+      "oF" : 0
+    },
+    "\/html\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/index.html",
+      "oF" : 0
+    },
+    "\/html\/shopify\/element-vape.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/shopify\/element-vape.html",
+      "oF" : 0
+    },
+    "\/html\/shopify\/regent-jewelers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/shopify\/regent-jewelers.html",
+      "oF" : 0
+    },
+    "\/html\/shopify\/shopify.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/shopify\/shopify.html",
+      "oF" : 0
+    },
+    "\/html\/wordpress\/bsf.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/wordpress\/bsf.html",
+      "oF" : 0
+    },
+    "\/html\/wordpress\/cemc.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/wordpress\/cemc.html",
+      "oF" : 0
+    },
+    "\/html\/wordpress\/dfn.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/wordpress\/dfn.html",
+      "oF" : 0
+    },
+    "\/html\/wordpress\/wordpress.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/html\/wordpress\/wordpress.html",
+      "oF" : 0
+    },
     "\/img" : {
       "ft" : 65536,
       "oA" : 1,
@@ -201,13 +282,51 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/inc\/magnific-popup.js\/jquery.magnific-popup.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/index.html",
-      "oF" : 0
+      "oAP" : "\/inc\/magnific-popup.js\/jquery.magnific-popup-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/magnific-popup.js\/jquery.magnific-popup.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/inc\/magnific-popup.js\/jquery.magnific-popup.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/inc\/magnific-popup.js\/magnific-popup.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/magnific-popup.js\/magnific-popup-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/inc\/magnific-popup.js\/magnific-popup.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/inc\/magnific-popup.js\/magnific-popup.min-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/js\/main-min.js" : {
       "bF" : 0,
@@ -230,14 +349,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/wordpress.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/wordpress.html",
-      "oF" : 0
     }
   },
   "hooks" : [
