@@ -1,15 +1,24 @@
 .about {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   margin: 0 auto;
   max-width: 1400px;
-  min-height: 100vh;
+  padding: 50px 0;
 }
 .about .about-me {
   padding: 0 50px;
 }
 .about img {
-  max-width: 500px;
+  max-width: 350px;
+}
+@media (max-width: 767px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+  .about img {
+    margin: 20px auto 0;
+    max-width: 200px;
+  }
 }
 
 @keyframes rotateMenuDown {
@@ -136,6 +145,9 @@ body .mfp-container .showcase-grid img {
   max-width: 314px;
   margin: 0 20px 20px 0;
 }
+body .mfp-wrap {
+  height: 100% !important;
+}
 body .overlay {
   background: #000;
   height: 100%;
@@ -155,6 +167,12 @@ body .showcase.showcase-grid .showcase-item {
   margin: 0 20px 20px 0;
   max-width: 380px;
 }
+body .showcase.showcase-grid .showcase-overlay:after {
+  content: "View More";
+}
+body .showcase.showcase-slider .showcase-item {
+  height: fit-content;
+}
 body .showcase.showcase-slider .slick-arrow {
   align-items: center;
   background: transparent;
@@ -165,7 +183,7 @@ body .showcase.showcase-slider .slick-arrow {
   height: 40px;
   justify-content: center;
   position: absolute;
-  top: 250px;
+  top: 265px;
   width: 40px;
   z-index: 999;
 }
@@ -264,6 +282,12 @@ body .title {
   body .showcase.showcase-grid .showcase-item {
     margin-right: 0;
   }
+  body .showcase .showcase-overlay:after {
+    opacity: 1;
+  }
+  body .showcase .showcase-overlay:before {
+    opacity: 0.5;
+  }
 }
 
 .contact {
@@ -277,8 +301,37 @@ body .title {
   position: relative;
 }
 .contact .contact-form {
-  color: #fff;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 350px;
+  padding: 25px;
   position: relative;
+  width: 100%;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.contact form button[type=submit] {
+  background: #000;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  max-width: 150px;
+  padding: 10px;
+}
+.contact form button[type=submit]:hover {
+  color: #87ceeb;
+}
+.contact form input, .contact form textarea {
+  border: solid 1px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 @font-face {
@@ -397,4 +450,12 @@ header nav .nav li.has-subnav > p {
   color: #fff;
   cursor: default;
   margin: 0;
+}
+@media (max-width: 767px) {
+  header nav .nav {
+    padding: 0 20px;
+  }
+  header nav .nav .has-subnav {
+    margin-right: 20px;
+  }
 }

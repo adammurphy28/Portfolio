@@ -1,15 +1,24 @@
 .about {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
-    min-height: 100vh;
+    padding: 50px 0;
 
     .about-me {
         padding: 0 50px;
     }
 
     img {
-        max-width: 500px;
+        max-width: 350px;
+    }
+
+    @media (max-width: 767px) {
+        flex-direction: column-reverse;
+
+        img {
+            margin: 20px auto 0;
+            max-width: 200px;
+        }
     }
 }

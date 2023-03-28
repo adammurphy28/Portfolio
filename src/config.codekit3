@@ -201,14 +201,6 @@
       "oAP" : "\/html\/cwv\/pioncomm-cwv.html",
       "oF" : 0
     },
-    "\/html\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/html\/index.html",
-      "oF" : 0
-    },
     "\/html\/shopify\/element-vape.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -327,6 +319,14 @@
       "oAP" : "\/inc\/magnific-popup.js\/magnific-popup.min-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index.html",
+      "oF" : 0
     },
     "\/js\/main-min.js" : {
       "bF" : 0,

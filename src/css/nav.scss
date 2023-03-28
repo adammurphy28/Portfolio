@@ -129,4 +129,15 @@ header {
             }
         }
     }
+
+    @media (max-width: 767px) {
+
+        nav .nav {
+            padding: 0 20px;
+
+            .has-subnav {
+                margin-right: 20px;
+            }
+        }
+    }
 }

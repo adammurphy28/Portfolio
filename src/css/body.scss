@@ -139,6 +139,10 @@ body {
             }
         }
     }
+
+    .mfp-wrap {
+        height: 100%!important;
+    }
     
     .overlay {
         background: $color_black;
@@ -162,9 +166,20 @@ body {
                 margin: 0 20px 20px 0;
                 max-width: 380px;
             }
+
+            .showcase-overlay {
+                
+                &:after {
+                    content: 'View More';
+                }
+            }
         }
 
         &.showcase-slider {
+
+            .showcase-item {
+                height: fit-content;
+            }
     
             .slick-arrow {
                 align-items: center;
@@ -176,7 +191,7 @@ body {
                 height: 40px;
                 justify-content: center;
                 position: absolute;
-                top: 250px;
+                top: 265px;
                 width: 40px;
                 z-index: 999;
         
@@ -298,6 +313,14 @@ body {
 
         .showcase.showcase-grid .showcase-item {
             margin-right: 0;
+        }
+
+        .showcase .showcase-overlay:after {
+            opacity: 1;
+        }
+
+        .showcase .showcase-overlay:before {
+            opacity: 0.5;
         }
     }
 }
