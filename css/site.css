@@ -292,7 +292,7 @@ body .title {
 
 .contact {
   align-items: center;
-  background: url("/img/site/contact-bg.jpeg");
+  background: url("/Portfolio/img/site/contact-bg.jpeg");
   background-position: center;
   background-size: cover;
   display: flex;
