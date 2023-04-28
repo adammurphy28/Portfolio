@@ -8,14 +8,14 @@ body {
     &#cwv {
 
         .banner {
-            background-image: url('/Portfolio/img/site/cwv-bg.webp');
+            background-image: url('../img/site/cwv-bg.webp');
         }
     }
 
     &#home {
 
         .banner {
-            background-image: url('/Portfolio/img/site/home-bg.jpeg');
+            background-image: url('../img/site/home-bg.jpeg');
         }
 
         .showcase-slider {
@@ -45,14 +45,15 @@ body {
     &#shopify {
 
         .banner {
-            background-image: url('/Portfolio/img/site/shopify-bg.jpeg');
+            background-image: url('../img/site/shopify-bg.jpeg');
+            background-position: bottom center;
         }
     }
 
     &#wordpress {
 
         .banner {
-            background-image: url('/Portfolio/img/site/wordpress-bg.jpeg');
+            background-image: url('../img/site/wordpress-bg.jpeg');
         }
     }
 

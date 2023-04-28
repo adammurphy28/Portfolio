@@ -53,10 +53,10 @@ body {
   margin: 0;
 }
 body#cwv .banner {
-  background-image: url("/Portfolio/img/site/cwv-bg.webp");
+  background-image: url("../img/site/cwv-bg.webp");
 }
 body#home .banner {
-  background-image: url("/Portfolio/img/site/home-bg.jpeg");
+  background-image: url("../img/site/home-bg.jpeg");
 }
 body#home .showcase-slider img {
   height: 570px;
@@ -72,10 +72,11 @@ body#home .showcase-slider .showcase-item.item-3 > a:after {
   content: "CWV";
 }
 body#shopify .banner {
-  background-image: url("/Portfolio/img/site/shopify-bg.jpeg");
+  background-image: url("../img/site/shopify-bg.jpeg");
+  background-position: bottom center;
 }
 body#wordpress .banner {
-  background-image: url("/Portfolio/img/site/wordpress-bg.jpeg");
+  background-image: url("../img/site/wordpress-bg.jpeg");
 }
 body .banner {
   background-position: top center;
@@ -114,6 +115,7 @@ body .main > .container {
 body .mfp-container {
   align-items: flex-start;
   display: flex;
+  height: -moz-fit-content;
   height: fit-content;
   justify-content: center;
   padding: 50px 0;
@@ -171,6 +173,7 @@ body .showcase.showcase-grid .showcase-overlay:after {
   content: "View More";
 }
 body .showcase.showcase-slider .showcase-item {
+  height: -moz-fit-content;
   height: fit-content;
 }
 body .showcase.showcase-slider .slick-arrow {
@@ -219,13 +222,16 @@ body .showcase.showcase-slider .slick-arrow.slick-next:after {
 }
 body .showcase img {
   border-radius: 10px;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   width: 100%;
 }
 body .showcase .showcase-overlay {
   align-items: center;
   display: flex;
+  height: -moz-fit-content;
   height: fit-content;
   justify-content: center;
   position: relative;
@@ -292,7 +298,7 @@ body .title {
 
 .contact {
   align-items: center;
-  background: url("/Portfolio/img/site/contact-bg.jpeg");
+  background: url("../img/site/contact-bg.jpeg");
   background-position: center;
   background-size: cover;
   display: flex;
