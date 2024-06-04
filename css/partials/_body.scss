@@ -1,16 +1,9 @@
-@import 'colors.scss';
-@import 'fonts.scss';
+@use 'colors' as *;
+@use 'fonts' as *;
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-
-    &#cwv {
-
-        .banner {
-            background-image: url('../img/site/cwv-bg.webp');
-        }
-    }
 
     &#home {
 
@@ -42,22 +35,8 @@ body {
         }
     }
 
-    &#shopify {
-
-        .banner {
-            background-image: url('../img/site/shopify-bg.jpeg');
-            background-position: bottom center;
-        }
-    }
-
-    &#wordpress {
-
-        .banner {
-            background-image: url('../img/site/wordpress-bg.jpeg');
-        }
-    }
-
     .banner {
+        background-image: url('../img/site/work-bg.jpeg');
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -127,6 +106,10 @@ body {
 
         h1 {
             text-align: left;
+            width: 100%;
+        }
+
+        p {
             width: 100%;
         }
 

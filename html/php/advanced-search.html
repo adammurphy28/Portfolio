@@ -1,0 +1,14 @@
+<h1>Blue Stream Fiber Advanced Search</h1>
+<p>This was an interesting project that came my way a little while ago at the time of writing this. The client wanted a more robust search engine than what WordPress was offering in hopes of giving their customer service representatives a little breathing room.</p>
+<p>They wanted to be able to provide a list of CSV questions that would autofill the search box and give the user some guidance as they're typing in their question. These CSV questions would also link to specific sections on the site.</p>
+<p>At the time of building this out, we couldn't find a standard WordPress plugin to fulfill their needs, so I ended up building it out custom in PHP.</p>
+<p>I started by creating a table in the MYSQL database with the columns I would need to store the CSV data. After storing the CSV data, I created REST API endpoints for the database columns to use for various search features, such as the autofill dropdown.</p>
+<p>After getting the autofill dropdown, I utilized the WP_Query function to start a search query, and then filtered down as I needed with some basic conditional logic.</p>
+<p>Another big part of this project was how the client wanted the data to display. Some items were PDFs, Videos, Text, Accordions, etc. Things that all needed to be accessed directly from the search query without the user having to navigate to the page that was searched.</p>
+<div class="showcase showcase-grid">
+    <img src="../../img/php/php-create-db-table.png" alt="advanced-search-db-table">
+    <img src="../../img/php/php-create-rest-endpoints.png" alt="advanced-search-rest-endpoints">
+    <img src="../../img/php/php-wordpress-create-search-query.png" alt="advanced-search-query">
+    <img src="../../img/php/php-wordpress-filter-search-query.png" alt="advanced-search-query-filter">
+    <img src="../../img/php/php-wordpress-add-pdf-inline.png" alt="advanced-search-add-pdf-inline">
+</div>
