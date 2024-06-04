@@ -1,8 +1,9 @@
 .about {
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     margin: 0 auto;
     max-width: 1400px;
+    min-height: 100vh;
     padding: 50px 0;
 
     .about-me {

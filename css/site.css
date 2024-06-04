@@ -1,8 +1,9 @@
 .about {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   margin: 0 auto;
   max-width: 1400px;
+  min-height: 100vh;
   padding: 50px 0;
 }
 .about .about-me {
@@ -442,12 +443,12 @@ header nav .nav li.has-subnav:after {
   transition: 0.3s transform ease-out;
   width: 8px;
 }
-header nav .nav li.has-subnav:hover:after {
+header nav .nav li.has-subnav[data-show-menu=true]:after, header nav .nav li.has-subnav:hover:after {
   margin-top: 6px;
   transform: rotate(135deg);
   transition: 0.3s transform ease-out;
 }
-header nav .nav li.has-subnav:hover .subnav {
+header nav .nav li.has-subnav[data-show-menu=true] .subnav, header nav .nav li.has-subnav:hover .subnav {
   animation: rotateMenuDown 400ms ease-in-out forwards;
   display: block;
   transform-origin: top center;

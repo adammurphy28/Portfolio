@@ -1,1 +1,1 @@
-!function($){$().slick&&$(".showcase-slider").slick(),$().magnificPopup&&$(".has-popup").each((function(){$(this).magnificPopup({type:"ajax"})}))}(this.jQuery);
+!function(a){a().slick&&a(".showcase-slider").slick(),a().magnificPopup&&a(".has-popup").each(function(){a(this).magnificPopup({type:"ajax"})}),a(".has-subnav").on("click",function(){let t=a(this);"false"===t.attr("data-show-menu")?t.attr("data-show-menu","true"):t.attr("data-show-menu","false")})}(this.jQuery);
